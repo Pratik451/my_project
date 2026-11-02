@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="agmG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#052636"/>
+      <stop offset="100%" stop-color="#052636"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#agmG)"/>
+  <!-- Stage Backdrop Banner -->
+  <rect x="80" y="80" width="640" height="240" rx="12" fill="#073d56" stroke="#f59e0b" stroke-width="3"/>
+  <text x="400" y="150" font-family="system-ui, sans-serif" font-size="28" font-weight="900" fill="#ffffff" text-anchor="middle">२४औं वार्षिक साधारण सभा</text>
+  <text x="400" y="195" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#fef08a" text-anchor="middle">24th Annual General Meeting (AGM)</text>
+  <text x="400" y="240" font-family="system-ui, sans-serif" font-size="16" fill="#bae6fd" text-anchor="middle">अंकुर बचत तथा ऋण सहकारी संस्था लि., बुटवल</text>
+
+  <!-- Audience & Stage Dais -->
+  <rect x="250" y="340" width="300" height="120" rx="8" fill="#052636" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="330" cy="390" r="22" fill="#f59e0b"/>
+  <circle cx="400" cy="385" r="25" fill="#ffffff"/>
+  <circle cx="470" cy="390" r="22" fill="#f59e0b"/>
+  <!-- Podium -->
+  <rect x="380" y="420" width="40" height="60" fill="#d97706"/>
+  <text x="400" y="550" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">सेयर सदस्य महानुभावहरूको भव्य सहभागिता</text>
+</svg>

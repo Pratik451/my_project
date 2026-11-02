@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="remitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#701a75" />
+      <stop offset="50%" stop-color="#c026d3" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="20" fill="url(#remitGrad)" />
+  <circle cx="300" cy="180" r="70" fill="#fdf2f8" />
+  <text x="300" y="200" font-family="sans-serif" font-size="64" text-anchor="middle">💸</text>
+  <text x="300" y="300" font-family="sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">Global &amp; Domestic Remittance Payout</text>
+  <text x="300" y="330" font-family="sans-serif" font-size="14" fill="#fbcfe8" text-anchor="middle">विदेश तथा स्वदेशबाट पठाएको रकम तुरुन्तै खातामै प्राप्त</text>
+  <rect x="230" y="345" width="140" height="28" rx="14" fill="#f472b6" />
+  <text x="300" y="364" font-family="sans-serif" font-size="12" font-weight="bold" fill="#701a75" text-anchor="middle">GLOBAL NETWORK</text>
+</svg>

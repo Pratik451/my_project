@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <rect width="1200" height="600" fill="#052636"/>
+  <rect x="60" y="60" width="1080" height="480" rx="20" fill="#073d56" stroke="#f59e0b" stroke-width="4"/>
+  <circle cx="600" cy="170" r="60" fill="#f59e0b"/>
+  <text x="600" y="188" font-family="system-ui, sans-serif" font-size="52" font-weight="bold" fill="#052636" text-anchor="middle">AGM</text>
+  <text x="600" y="290" font-family="system-ui, sans-serif" font-size="36" font-weight="900" fill="#ffffff" text-anchor="middle">२४औं वार्षिक साधारण सभा तथा १५.५% लाभांश वितरण</text>
+  <text x="600" y="345" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#fef08a" text-anchor="middle">24th AGM &amp; 15.5% Dividend Distribution Notice</text>
+  <text x="600" y="400" font-family="system-ui, sans-serif" font-size="20" fill="#e0f2fe" text-anchor="middle">स्थान: केन्द्रीय सभाहल, बुटवल-०४ • मिति: २०८३ असोज १८ गते</text>
+  <rect x="450" y="440" width="300" height="50" rx="25" fill="#052636" stroke="#38bdf8" stroke-width="2"/>
+  <text x="600" y="472" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#38bdf8" text-anchor="middle">सूचना नं. ०४/२०८३-८४</text>
+</svg>

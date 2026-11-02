@@ -1,0 +1,6 @@
+{
+  "name": "Ekata Cooperative",
+  "description": "Ekata Saving and Credit Cooperative web portal with complete pure-PHP backend, CBS member portal, and attractive professional admin panel with full frontend CMS management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

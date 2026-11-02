@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c2d3e" />
+      <stop offset="100%" stop-color="#0981ae" />
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGrad1)" />
+  <circle cx="200" cy="140" r="60" fill="#fbd38d" />
+  <path d="M140 120 C140 70, 260 70, 260 120 C240 100, 160 100, 140 120 Z" fill="#334155" />
+  <!-- Suit and tie -->
+  <path d="M110 330 C110 230, 150 210, 200 210 C250 210, 290 230, 290 330 Z" fill="url(#suitGrad)" />
+  <polygon points="180,210 220,210 205,275 195,275" fill="#ffffff" />
+  <polygon points="197,225 203,225 206,290 200,310 194,290" fill="#b91c1c" />
+  <!-- Glasses -->
+  <circle cx="180" cy="140" r="14" fill="none" stroke="#475569" stroke-width="3" />
+  <circle cx="220" cy="140" r="14" fill="none" stroke="#475569" stroke-width="3" />
+  <line x1="194" y1="140" x2="206" y2="140" stroke="#475569" stroke-width="3" />
+  <path d="M190 170 Q200 178 210 170" fill="none" stroke="#78350f" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Badge -->
+  <rect x="70" y="340" width="260" height="42" rx="8" fill="#ffffff" opacity="0.95" />
+  <text x="200" y="358" font-family="sans-serif" font-size="13" font-weight="bold" fill="#0c2d3e" text-anchor="middle">Er. Krishna Prasad Sharma</text>
+  <text x="200" y="374" font-family="sans-serif" font-size="11" fill="#0981ae" text-anchor="middle">Chairman • Board of Directors</text>
+</svg>

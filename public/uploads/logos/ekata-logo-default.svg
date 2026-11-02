@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 90" width="380" height="90" fill="none">
+  <defs>
+    <!-- Circular text paths for the emblem -->
+    <path id="topArc" d="M 12 45 A 33 33 0 1 1 78 45" fill="none" />
+    <path id="bottomArc" d="M 16 47 A 33 33 0 0 0 74 47" fill="none" />
+    <!-- Gradient for hands -->
+    <linearGradient id="handGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbc02d" />
+      <stop offset="100%" stop-color="#f57f17" />
+    </linearGradient>
+  </defs>
+
+  <!-- ================= EMBLEM GROUP ================= -->
+  <g transform="translate(2, 0)">
+    <!-- Supporting Golden Hands (Left & Right) -->
+    <!-- Left Hand -->
+    <path d="M 12 55 C 6 62 4 72 8 80 C 12 87 20 89 26 89 C 32 89 36 84 38 78 C 39 74 38 69 34 67 C 30 65 24 67 20 63 C 17 60 18 56 16 52 Z" 
+          fill="url(#handGrad)" stroke="#07678d" stroke-width="1.5" stroke-linejoin="round" />
+    <!-- Left Hand Palm Detail -->
+    <path d="M 16 68 C 22 75 28 78 35 77" stroke="#e65100" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.6" />
+
+    <!-- Right Hand -->
+    <path d="M 78 55 C 84 62 86 72 82 80 C 78 87 70 89 64 89 C 58 89 54 84 52 78 C 51 74 52 69 56 67 C 60 65 66 67 70 63 C 73 60 72 56 74 52 Z" 
+          fill="url(#handGrad)" stroke="#07678d" stroke-width="1.5" stroke-linejoin="round" />
+    <!-- Right Hand Palm Detail -->
+    <path d="M 74 68 C 68 75 62 78 55 77" stroke="#e65100" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.6" />
+
+    <!-- Circular Badge Outer & Inner -->
+    <circle cx="45" cy="44" r="39" fill="#ffffff" stroke="#07678d" stroke-width="2.5" />
+    <circle cx="45" cy="44" r="33" fill="#ffffff" stroke="#07678d" stroke-width="1.2" />
+
+    <!-- Top Text: अंकुर बचत तथा ऋण सहकारी संस्था लि. -->
+    <text font-family="'Noto Sans Devanagari', 'Inter', sans-serif" font-size="6.2" font-weight="900" fill="#0981ae" letter-spacing="0.1">
+      <textPath href="#topArc" startOffset="50%" text-anchor="middle">
+        अंकुर बचत तथा ऋण सहकारी संस्था लि.
+      </textPath>
+    </text>
+
+    <!-- Side Separating Dots -->
+    <circle cx="13.5" cy="44" r="1.8" fill="#0981ae" />
+    <circle cx="76.5" cy="44" r="1.8" fill="#0981ae" />
+
+    <!-- Bottom Text: बुटवल, रुपन्देही -->
+    <text font-family="'Noto Sans Devanagari', 'Inter', sans-serif" font-size="6.8" font-weight="900" fill="#0981ae" letter-spacing="0.2">
+      <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">
+        बुटवल, रुपन्देही
+      </textPath>
+    </text>
+
+    <!-- Inner Elements -->
+    <!-- 1. Six-pointed Star (Shatkona) -->
+    <!-- Upward Triangle -->
+    <polygon points="45,17 55.5,35 34.5,35" fill="none" stroke="#0981ae" stroke-width="1.2" />
+    <!-- Downward Triangle -->
+    <polygon points="45,39 34.5,21 55.5,21" fill="none" stroke="#0981ae" stroke-width="1.2" />
+
+    <!-- 2. Lord Ganesha Icon inside Star (Orange/Saffron) -->
+    <g transform="translate(41.5, 23) scale(0.45)">
+      <!-- Ganesha head, crown & ears -->
+      <path d="M 7 1 C 5 1 3 3 3 5 C 1 5 0 7 1 9 C 2 11 4 11 5 12 C 5 14 6 16 8 16 C 10 16 11 14 11 12 C 12 11 14 11 15 9 C 16 7 15 5 13 5 C 13 3 11 1 9 1 Z" fill="#e65100" />
+      <path d="M 8 2 L 7 6 L 9 6 Z" fill="#ffb300" />
+      <!-- Trunk curved to left -->
+      <path d="M 7 9 Q 6 12 4 12 Q 3 12 3 10.5" stroke="#bf360c" stroke-width="1.2" fill="none" stroke-linecap="round" />
+      <!-- Tika -->
+      <circle cx="8" cy="5" r="0.8" fill="#d50000" />
+    </g>
+
+    <!-- 3. Nepal Map Shape in Green with "अं कु र" -->
+    <!-- Simplified accurate Nepal polygon representation -->
+    <path d="M 23 48 L 29 45 L 37 46 L 46 44 L 54 47 L 62 49 L 66 52 L 67 56 L 63 58 L 57 56 L 49 57 L 41 55 L 33 54 L 25 53 Z" 
+          fill="#0981ae" stroke="#07678d" stroke-width="0.8" />
+    <!-- Text "अं कु र" inside map in crisp white -->
+    <text x="44.5" y="52.5" font-family="'Noto Sans Devanagari', 'Inter', sans-serif" font-size="5.2" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">
+      अं कु र
+    </text>
+
+    <!-- 4. "स्था: २०५४" -->
+    <text x="45" y="64" font-family="'Noto Sans Devanagari', 'Inter', sans-serif" font-size="5.8" font-weight="900" fill="#0981ae" text-anchor="middle">
+      स्था: २०५४
+    </text>
+  </g>
+
+  <!-- ================= TYPOGRAPHY GROUP ================= -->
+  <g transform="translate(100, 0)">
+    <!-- Main Nepali Title -->
+    <text x="0" y="27" font-family="'Noto Sans Devanagari', 'Inter', sans-serif" font-weight="900" font-size="20" fill="#07678d" letter-spacing="-0.4">
+      अंकुर बचत तथा ऋण
+    </text>
+    <text x="0" y="47" font-family="'Noto Sans Devanagari', 'Inter', sans-serif" font-weight="800" font-size="15" fill="#0981ae">
+      सहकारी संस्था लि.
+    </text>
+    
+    <!-- English Name -->
+    <text x="0" y="64" font-family="'Inter', sans-serif" font-weight="800" font-size="10.5" fill="#0c2d3e" letter-spacing="0.3">
+      ANKUR SAVING &amp; CREDIT COOPERATIVE LTD.
+    </text>
+    
+    <!-- Location & Estd Tagline -->
+    <text x="0" y="78" font-family="'Noto Sans Devanagari', 'Inter', sans-serif" font-weight="600" font-size="9.5" fill="#526b7a">
+      बुटवल, रुपन्देही • स्था. २०५४ (Estd. 1997)
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#052636"/>
+      <stop offset="50%" stop-color="#07678d"/>
+      <stop offset="100%" stop-color="#052636"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0cb3f0" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#052636" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bgGrad)"/>
+  <circle cx="800" cy="450" r="600" fill="url(#glow)"/>
+  
+  <!-- Subtle decorative grid -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="150" x2="1600" y2="150"/>
+    <line x1="0" y1="300" x2="1600" y2="300"/>
+    <line x1="0" y1="450" x2="1600" y2="450"/>
+    <line x1="0" y1="600" x2="1600" y2="600"/>
+    <line x1="0" y1="750" x2="1600" y2="750"/>
+    <line x1="200" y1="0" x2="200" y2="900"/>
+    <line x1="400" y1="0" x2="400" y2="900"/>
+    <line x1="600" y1="0" x2="600" y2="900"/>
+    <line x1="800" y1="0" x2="800" y2="900"/>
+    <line x1="1000" y1="0" x2="1000" y2="900"/>
+    <line x1="1200" y1="0" x2="1200" y2="900"/>
+    <line x1="1400" y1="0" x2="1400" y2="900"/>
+  </g>
+
+  <!-- Financial Banking Building & Pillar Illustration -->
+  <g transform="translate(900, 240)">
+    <!-- Base Platform -->
+    <path d="M 50 420 L 550 420 L 520 450 L 80 450 Z" fill="#052636" stroke="#0cb3f0" stroke-width="2"/>
+    <rect x="80" y="380" width="440" height="40" rx="6" fill="#073d56" stroke="#0cb3f0" stroke-width="2"/>
+    
+    <!-- Classical Banking Pillars -->
+    <rect x="110" y="160" width="45" height="220" rx="4" fill="#0981ae" stroke="#38bdf8" stroke-width="1.5"/>
+    <rect x="195" y="160" width="45" height="220" rx="4" fill="#0981ae" stroke="#38bdf8" stroke-width="1.5"/>
+    <rect x="280" y="160" width="45" height="220" rx="4" fill="#0981ae" stroke="#38bdf8" stroke-width="1.5"/>
+    <rect x="365" y="160" width="45" height="220" rx="4" fill="#0981ae" stroke="#38bdf8" stroke-width="1.5"/>
+    <rect x="450" y="160" width="45" height="220" rx="4" fill="#0981ae" stroke="#38bdf8" stroke-width="1.5"/>
+    
+    <!-- Pediment / Roof Triangle -->
+    <polygon points="300,40 70,160 530,160" fill="#073d56" stroke="#f59e0b" stroke-width="3"/>
+    
+    <!-- Golden Seal inside Pediment -->
+    <circle cx="300" cy="115" r="28" fill="url(#goldGrad)" stroke="#ffffff" stroke-width="2"/>
+    <text x="300" y="122" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#052636" text-anchor="middle">★</text>
+  </g>
+
+  <!-- Growth Trends Line -->
+  <path d="M 150 680 C 350 620, 500 550, 700 420 C 900 320, 1100 340, 1450 180" fill="none" stroke="url(#goldGrad)" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 6"/>
+  <circle cx="1450" cy="180" r="14" fill="#fbbf24" stroke="#ffffff" stroke-width="4"/>
+
+  <!-- Typography & Badges in Illustration -->
+  <text x="140" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="900" fill="#ffffff">ANKUR COOPERATIVE</text>
+  <text x="140" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#38bdf8">अंकुर बचत तथा ऋण सहकारी संस्था लि.</text>
+  <text x="140" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" fill="#e0f2fe">Trusted Financial Pillar of Rupandehi • Established 2057 B.S.</text>
+  
+  <g transform="translate(140, 520)">
+    <rect width="280" height="58" rx="29" fill="url(#goldGrad)"/>
+    <text x="140" y="36" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#052636" text-anchor="middle">COMMUNITY BANKING</text>
+  </g>
+</svg>

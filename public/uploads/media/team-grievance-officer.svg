@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradGrv" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#311042" />
+      <stop offset="100%" stop-color="#7e22ce" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGradGrv)" />
+  <circle cx="200" cy="135" r="58" fill="#fde047" />
+  <!-- Hair -->
+  <path d="M140 120 C140 65, 260 65, 260 120 C240 98, 160 98, 140 120 Z" fill="#18181b" />
+  <!-- Formal Executive Suit -->
+  <path d="M110 330 C110 225, 150 205, 200 205 C250 205, 290 225, 290 330 Z" fill="#2e1065" />
+  <polygon points="180,205 220,205 204,270 196,270" fill="#faf5ff" />
+  <polygon points="197,218 203,218 206,290 200,312 194,290" fill="#a855f7" />
+  <!-- Glasses -->
+  <circle cx="180" cy="135" r="13" fill="none" stroke="#71717a" stroke-width="2.8" />
+  <circle cx="220" cy="135" r="13" fill="none" stroke="#71717a" stroke-width="2.8" />
+  <line x1="193" y1="135" x2="207" y2="135" stroke="#71717a" stroke-width="2.8" />
+  <!-- Smile -->
+  <path d="M190 166 Q200 174 210 166" fill="none" stroke="#78350f" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Badge -->
+  <rect x="70" y="340" width="260" height="42" rx="8" fill="#ffffff" opacity="0.95" />
+  <text x="200" y="358" font-family="sans-serif" font-size="13" font-weight="bold" fill="#3b0764" text-anchor="middle">Mr. Manoj Poudel</text>
+  <text x="200" y="374" font-family="sans-serif" font-size="11" fill="#7e22ce" text-anchor="middle">Grievance Redressal Officer</text>
+</svg>

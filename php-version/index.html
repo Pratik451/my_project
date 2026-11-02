@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ekata Saving & Credit Cooperative Ltd. | एकता बचत तथा ऋण सहकारी</title>
+  <meta name="description" content="Official Portal of Ekata Saving & Credit Cooperative Ltd., Butwal-4 Rupandehi. Delivering trusted community cooperative banking, deposits, productive loans, remittance, and digital banking.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= CONSTANT FIXED HEADER WRAPPER ================= -->
+  <div class="fixed-header-wrapper">
+    <!-- ================= TOPBAR ================= -->
+    <div class="topbar">
+      <div class="container topbar-content">
+        <div class="ticker-wrap">
+          <span class="ticker-badge">NOTICES</span>
+          <span class="ticker-text">
+            ✦ एकता सहकारीको २४औं वार्षिक साधारण सभा सम्पन्न • नयाँ ब्याजदर मिति २०८१/०६/०१ देखि लागू गरिएको छ • खुला पदपूर्ति दरखास्त आह्वान मिति २०८३ असोज २५ सम्म बुझाउन सकिनेछ • निःशुल्क सदस्य सहायता हटलाइन: १६६०-०१-९९८८७ ✦
+          </span>
+        </div>
+        <div class="topbar-links">
+          <a href="#reports" data-modal-target="reports-annual">📑 <span data-lang-en="Reports" data-lang-np="प्रतिवेदन">Reports</span></a>
+          <a href="#career" data-modal-target="career-vacancies">💼 <span data-lang-en="Career" data-lang-np="करियर">Career</span></a>
+          <a href="#contact" data-modal-target="contact-info">✉ <span data-lang-en="Contact" data-lang-np="सम्पर्क">Contact</span></a>
+          <a href="#digital" data-modal-target="digital-services">📱 <span data-lang-en="Digital Banking" data-lang-np="डिजिटल बैंकिङ">Digital Banking</span></a>
+          <button id="langSwitchBtn" class="lang-btn">नेपाली</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= BRAND HEADER & CONSTANT FIXED NAVBAR ================= -->
+    <header class="main-header">
+    <div class="container header-brand-row">
+      <div class="brand-wrapper">
+        <div class="coop-emblem">🌾</div>
+        <div class="brand-info">
+          <h1 data-lang-en="Ekata Saving & Credit Cooperative Ltd." data-lang-np="एकता बचत तथा ऋण सहकारी संस्था लि.">
+            Ekata Saving & Credit Cooperative Ltd.
+          </h1>
+          <p data-lang-en="Butwal-4, Rupandehi • Regd. No: 245/056/057 • Established 2056 B.S." data-lang-np="बुटवल-४, रुपन्देही • दर्ता नं: २४५/०५६/०५७ • स्थापना: २०५६ वि.सं.">
+            Butwal-4, Rupandehi • Regd. No: 245/056/057 • Established 2056 B.S.
+          </p>
+          <span class="brand-meta-badge">Certified A-Grade Cooperative • Rupandehi</span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <div class="helpline-box">
+          <div class="icon">📞</div>
+          <div>
+            <div class="label" data-lang-en="Toll-Free Helpline" data-lang-np="टोल-फ्री हटलाइन">Toll-Free Helpline</div>
+            <div class="number">1660-01-99887</div>
+          </div>
+        </div>
+        <button class="nav-portal-btn" data-modal-target="digital-services">
+          🔐 <span data-lang-en="Member Portal" data-lang-np="सदस्य पोर्टल">Member Portal</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- ================= NAVBAR WITH EXACT REQUESTED MENUS ================= -->
+    <nav class="navbar-strip">
+      <div class="container navbar-container">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              🏠 <span data-lang-en="Home" data-lang-np="गृहपृष्ठ">Home</span>
+            </a>
+          </li>
+
+          <!-- 6 CORE SERVICES DROPDOWN -->
+          <li class="nav-item">
+            <button type="button" class="nav-link">
+              ✦ <span data-lang-en="Services" data-lang-np="सेवाहरू">Services</span>
+              <span class="dropdown-caret">▼</span>
+            </button>
+            <div class="dropdown-menu">
+              <div class="dropdown-item" data-modal-target="member-service">
+                <div class="icon">👥</div>
+                <div>
+                  <div class="text-title" data-lang-en="Member Service" data-lang-np="सदस्य सेवा">Member Service</div>
+                  <div class="text-desc" data-lang-en="Share membership, welfare fund & counseling" data-lang-np="सेयर सदस्यता, कल्याणकारी कोष">Core Member</div>
+                </div>
+              </div>
+              <div class="dropdown-item" data-modal-target="deposit-product">
+                <div class="icon">🪙</div>
+                <div>
+                  <div class="text-title" data-lang-en="Deposit Product" data-lang-np="बचत योजना">Deposit Product</div>
+                  <div class="text-desc" data-lang-en="High-yield savings & recurring deposits" data-lang-np="उच्च ब्याजदरको बचत">Up to 11.75%</div>
+                </div>
+              </div>
+              <div class="dropdown-item" data-modal-target="loan">
+                <div class="icon">💼</div>
+                <div>
+                  <div class="text-title" data-lang-en="Loan" data-lang-np="कर्जा सेवा">Loan</div>
+                  <div class="text-desc" data-lang-en="Agriculture, business & housing loans" data-lang-np="कृषि तथा व्यवसाय कर्जा">From 12.00%</div>
+                </div>
+              </div>
+              <div class="dropdown-item" data-modal-target="remittance">
+                <div class="icon">↗</div>
+                <div>
+                  <div class="text-title" data-lang-en="Remittance" data-lang-np="रेमिट्यान्स सेवा">Remittance</div>
+                  <div class="text-desc" data-lang-en="Domestic & global fast counter payout" data-lang-np="सुरक्षित रेमिट्यान्स भुक्तानी">Instant Payout</div>
+                </div>
+              </div>
+              <div class="dropdown-item" data-modal-target="insurance">
+                <div class="icon">🛡️</div>
+                <div>
+                  <div class="text-title" data-lang-en="Insurance" data-lang-np="सुरक्षण तथा बीमा">Insurance</div>
+                  <div class="text-desc" data-lang-en="Health, accident & loan risk cover" data-lang-np="स्वास्थ्य तथा कर्जा सुरक्षा">Safety Cover</div>
+                </div>
+              </div>
+              <div class="dropdown-item" data-modal-target="digital-services">
+                <div class="icon">📱</div>
+                <div>
+                  <div class="text-title" data-lang-en="Digital Services" data-lang-np="डिजिटल सेवाहरू">Digital Services</div>
+                  <div class="text-desc" data-lang-en="Mobile banking, QR scan & bill pay" data-lang-np="स्मार्ट मोबाइल बैंकिङ">24/7 Digital</div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- INTEREST RATES -->
+          <li class="nav-item">
+            <a href="#rates-section" class="nav-link">
+              ⌁ <span data-lang-en="Interest Rates" data-lang-np="ब्याज दर">Interest Rates</span>
+            </a>
+          </li>
+
+          <!-- REPORTS (MONTHLY, PROGRESS, ANNUAL, AUDIT) -->
+          <li class="nav-item">
+            <button type="button" class="nav-link">
+              📑 <span data-lang-en="Reports" data-lang-np="प्रतिवेदन">Reports</span>
+              <span class="dropdown-caret">▼</span>
+            </button>
+            <div class="dropdown-menu">
+              <div class="dropdown-item" data-modal-target="reports-monthly">
+                <div class="icon">📅</div>
+                <div>
+                  <div class="text-title" data-lang-en="Monthly Report" data-lang-np="मासिक प्रतिवेदन">Monthly Report</div>
+                  <div class="text-desc" data-lang-en="Monthly deposits, liquidity & loan recovery statement" data-lang-np="मासिक बचत, तरलता तथा कर्जा विवरण">Monthly statement</div>
+                </div>
+              </div>
+              <div class="dropdown-item" data-modal-target="reports-progress">
+                <div class="icon">📈</div>
+                <div>
+                  <div class="text-title" data-lang-en="Progress Report" data-lang-np="प्रगति प्रतिवेदन">Progress Report</div>
+                  <div class="text-desc" data-lang-en="Quarterly institutional indicators & member growth" data-lang-np="त्रैमासिक संस्थागत सूचकाङ्क">Progress review</div>
+                </div>
+              </div>
+              <div class="dropdown-item" data-modal-target="reports-annual">
+                <div class="icon">📑</div>
+                <div>
+                  <div class="text-title" data-lang-en="Annual Report" data-lang-np="वार्षिक प्रतिवेदन">Annual Report</div>
+                  <div class="text-desc" data-lang-en="24th Annual General Meeting official report book" data-lang-np="२४औं साधारण सभाको प्रतिवेदन">AGM Report Book</div>
+                </div>
+              </div>
+              <div class="dropdown-item" data-modal-target="reports-audit">
+                <div class="icon">⚖</div>
+                <div>
+                  <div class="text-title" data-lang-en="Audit Report" data-lang-np="लेखापरीक्षण प्रतिवेदन">Audit Report</div>
+                  <div class="text-desc" data-lang-en="Statutory certified chartered accountant audit" data-lang-np="स्वतन्त्र बाह्य लेखापरीक्षण">Statutory Audit</div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- CAREER (OPENING VACANCIES, ELIGIBILITY, APPLICATION PROCESS) -->
+          <li class="nav-item">
+            <button type="button" class="nav-link">
+              💼 <span data-lang-en="Career" data-lang-np="करियर">Career</span>
+              <span class="dropdown-caret">▼</span>
+            </button>
+            <div class="dropdown-menu">
+              <div class="dropdown-item" data-modal-target="career-vacancies">
+                <div class="icon">📢</div>
+                <div>
+                  <div class="text-title" data-lang-en="Opening Vacancies" data-lang-np="खुला पदपूर्ति विज्ञापन">Opening Vacancies</div>
+                  <div class="text-desc" data-lang-en="Explore active job vacancies in cooperative" data-lang-np="खुलेका जागिरका अवसरहरू">Active Openings</div>
+                </div>
+              </div>
+              <div class="dropdown-item" data-modal-target="career-requirements">
+                <div class="icon">📋</div>
+                <div>
+                  <div class="text-title" data-lang-en="Eligibility & Criteria" data-lang-np="योग्यता तथा अनुभव">Eligibility & Criteria</div>
+                  <div class="text-desc" data-lang-en="Qualification, age limit & skill metrics" data-lang-np="शैक्षिक योग्यता र उमेर हद">Criteria & Syllabus</div>
+                </div>
+              </div>
+              <div class="dropdown-item" data-modal-target="career-process">
+                <div class="icon">✉</div>
+                <div>
+                  <div class="text-title" data-lang-en="Application Process" data-lang-np="दरखास्त प्रक्रिया">Application Process</div>
+                  <div class="text-desc" data-lang-en="Form download, submission email & deadline" data-lang-np="फाराम डाउनलोड र बुझाउने तरिका">Form & Guidelines</div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- CONTACT -->
+          <li class="nav-item">
+            <a href="#contact" class="nav-link" data-modal-target="contact-info">
+              ✉ <span data-lang-en="Contact" data-lang-np="सम्पर्क">Contact</span>
+            </a>
+          </li>
+
+          <!-- LOAN CALCULATOR LINK -->
+          <li class="nav-item">
+            <a href="#calculator-section" class="nav-link">
+              🧮 <span data-lang-en="Calculator" data-lang-np="क्याल्कुलेटर">Calculator</span>
+            </a>
+          </li>
+        </ul>
+
+        <div style="padding: 6px 0;">
+          <button class="btn-primary" style="padding: 6px 14px; font-size: 12.5px;" data-modal-target="member-service">
+            + <span data-lang-en="Become a Member" data-lang-np="सदस्य बन्नुहोस्">Become a Member</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  </div>
+
+  <!-- Persistent Header Spacer for Smooth Flow -->
+  <div class="fixed-header-spacer"></div>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <h2 data-lang-en="Empowering Communities Through <span class='highlight-gold'>Trusted Cooperative Banking</span>" data-lang-np="विश्वसनीय सहकारी बैंकिङबाट <span class='highlight-gold'>समुदायको आर्थिक सबलीकरण</span>">
+          Empowering Communities Through <span class="highlight-gold">Trusted Cooperative Banking</span>
+        </h2>
+        <p data-lang-en="Ekata Saving & Credit Cooperative Ltd. serves over 12,500 active members in Rupandehi with secure high-yield savings, productive credit, and 24/7 digital finance." data-lang-np="एकता बचत तथा ऋण सहकारी संस्था लि. ले रूपन्देहीका १२,५०० भन्दा बढी सदस्यहरूलाई उच्च ब्याजदरको सुरक्षित बचत, उत्पादनमूलक कर्जा तथा डिजिटल बैंकिङ सेवा प्रदान गर्दै आएको छ।">
+          Ekata Saving & Credit Cooperative Ltd. serves over 12,500 active members in Rupandehi with secure high-yield savings, productive credit, and 24/7 digital finance.
+        </p>
+        <div class="hero-cta-group">
+          <button class="btn-primary" data-modal-target="member-service">
+            + <span data-lang-en="Open an Account" data-lang-np="खाता खोल्नुहोस्">Open an Account</span>
+          </button>
+          <a href="#rates-section" class="btn-secondary">
+            ⌁ <span data-lang-en="Explore Interest Rates" data-lang-np="ब्याजदर हेर्नुहोस्">Explore Interest Rates</span>
+          </a>
+          <button class="btn-secondary" data-modal-target="reports-annual">
+            📑 <span data-lang-en="24th AGM Report" data-lang-np="२४औं वार्षिक प्रतिवेदन">24th AGM Report</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-highlights-card">
+        <h3>✦ <span data-lang-en="Institutional Highlights" data-lang-np="संस्थागत मुख्य सूचकहरू">Institutional Highlights</span></h3>
+        <div class="highlight-row">
+          <span data-lang-en="Maximum Deposit Interest" data-lang-np="अधिकतम बचत ब्याजदर">Maximum Deposit Interest</span>
+          <span class="val highlight-gold">11.75% p.a.</span>
+        </div>
+        <div class="highlight-row">
+          <span data-lang-en="Total Active Members" data-lang-np="कुल सेयर सदस्य संख्या">Total Active Members</span>
+          <span class="val">12,500+ Verified</span>
+        </div>
+        <div class="highlight-row">
+          <span data-lang-en="Statutory Liquidity Cushion" data-lang-np="तरलता अनुपात मौज्दात">Statutory Liquidity Cushion</span>
+          <span class="val">22.40% (Highly Secure)</span>
+        </div>
+        <div class="highlight-row">
+          <span data-lang-en="Auditor Opinion" data-lang-np="लेखापरीक्षण राय">Auditor Opinion</span>
+          <span class="val">Unqualified Clean (Grade A)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= KEY STATS (DIRECTLY BENEATH HERO) ================= -->
+  <section class="stats-section">
+    <div class="container stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon">👥</div>
+        <div class="stat-number">12,500+</div>
+        <div class="stat-label" data-lang-en="Active Members" data-lang-np="सक्रिय सेयर सदस्य">Active Members</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🪙</div>
+        <div class="stat-number">Rs. 82.60 Cr</div>
+        <div class="stat-label" data-lang-en="Total Member Deposits" data-lang-np="कुल बचत निक्षेप मौज्दात">Total Member Deposits</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">💼</div>
+        <div class="stat-number">Rs. 71.80 Cr</div>
+        <div class="stat-label" data-lang-en="Productive Loans Invested" data-lang-np="उत्पादनमूलक कर्जा लगानी">Productive Loans Invested</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🛡️</div>
+        <div class="stat-number">Rs. 7.20 Cr</div>
+        <div class="stat-label" data-lang-en="Institutional Reserve Fund" data-lang-np="संस्थागत जगेडा कोष">Institutional Reserve Fund</div>
+      </div>
+    </div>
+
+    <!-- Institutional Profile & Reports Quick Action Strip (Positioned beneath stats) -->
+    <div class="container" style="margin-top: 20px;">
+      <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px;">
+        <div class="quick-panel-card" data-modal-target="about-intro" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 12px 14px; display: flex; align-items: center; gap: 10px; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,0.04); transition: transform 0.2s;">
+          <span style="font-size: 20px;">▥</span>
+          <div style="flex: 1;">
+            <div style="font-size: 13px; font-weight: 700; color: #0b2240;" data-lang-en="Institutional Profile" data-lang-np="संस्थागत परिचय">Institutional Profile</div>
+          </div>
+          <span style="background: #fef3c7; color: #b45309; font-size: 9px; font-weight: 800; padding: 2px 6px; border-radius: 4px;">LATEST</span>
+        </div>
+
+        <div class="quick-panel-card" data-modal-target="reports-monthly" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 12px 14px; display: flex; align-items: center; gap: 10px; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,0.04); transition: transform 0.2s;">
+          <span style="font-size: 20px;">📅</span>
+          <div>
+            <div style="font-size: 13px; font-weight: 700; color: #0b2240;" data-lang-en="Monthly Report" data-lang-np="मासिक प्रतिवेदन">Monthly Report</div>
+          </div>
+        </div>
+
+        <div class="quick-panel-card" data-modal-target="reports-progress" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 12px 14px; display: flex; align-items: center; gap: 10px; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,0.04); transition: transform 0.2s;">
+          <span style="font-size: 20px;">📈</span>
+          <div>
+            <div style="font-size: 13px; font-weight: 700; color: #0b2240;" data-lang-en="Progress Report" data-lang-np="प्रगति प्रतिवेदन">Progress Report</div>
+          </div>
+        </div>
+
+        <div class="quick-panel-card" data-modal-target="reports-annual" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 12px 14px; display: flex; align-items: center; gap: 10px; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,0.04); transition: transform 0.2s;">
+          <span style="font-size: 20px;">📑</span>
+          <div style="flex: 1;">
+            <div style="font-size: 13px; font-weight: 700; color: #0b2240;" data-lang-en="Annual Report" data-lang-np="वार्षिक प्रतिवेदन">Annual Report</div>
+          </div>
+          <span style="background: #dcfce7; color: #166534; font-size: 9px; font-weight: 800; padding: 2px 6px; border-radius: 4px;">24th AGM</span>
+        </div>
+
+        <div class="quick-panel-card" data-modal-target="reports-audit" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 12px 14px; display: flex; align-items: center; gap: 10px; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,0.04); transition: transform 0.2s;">
+          <span style="font-size: 20px;">⚖</span>
+          <div>
+            <div style="font-size: 13px; font-weight: 700; color: #0b2240;" data-lang-en="Audit Report" data-lang-np="लेखापरीक्षण प्रतिवेदन">Audit Report</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 6 CORE SERVICES SECTION ================= -->
+  <section class="services-section">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="section-eyebrow" data-lang-en="OUR COMPREHENSIVE OFFERINGS" data-lang-np="हाम्रा वित्तीय सेवाहरू">OUR COMPREHENSIVE OFFERINGS</div>
+        <h2 class="section-title" data-lang-en="6 Pillars of Cooperative Services" data-lang-np="सहकारीका ६ मुख्य सेवा स्तम्भहरू">6 Pillars of Cooperative Services</h2>
+        <p class="section-subtitle" data-lang-en="Carefully structured financial products designed to build prosperity, protect family savings, and empower local businesses." data-lang-np="सदस्यहरूको आर्थिक समृद्धिका लागि सुरक्षित बचत, सुलभ कर्जा र आधुनिक डिजिटल बैंकिङ।">
+          Carefully structured financial products designed to build prosperity, protect family savings, and empower local businesses.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card" data-modal-target="member-service">
+          <div>
+            <div class="service-header">
+              <div class="service-icon-box">👥</div>
+              <span class="service-badge">Core Member</span>
+            </div>
+            <h3 class="service-title" data-lang-en="Member Service" data-lang-np="सदस्य सेवा">Member Service</h3>
+            <p class="service-desc" data-lang-en="Share membership, regular financial counseling, welfare relief fund, and assembly voting rights." data-lang-np="सेयर सदस्यता, नियमित वित्तीय परामर्श, सदस्य सुरक्षा कोष तथा साधारण सभा मतदान अधिकार।">
+              Share membership, regular financial counseling, welfare relief fund, and assembly voting rights.
+            </p>
+          </div>
+          <button class="service-btn"><span data-lang-en="View Details & Terms" data-lang-np="विस्तृत विवरण हेर्नुहोस्">View Details & Terms</span> →</button>
+        </div>
+
+        <div class="service-card" data-modal-target="deposit-product">
+          <div>
+            <div class="service-header">
+              <div class="service-icon-box">🪙</div>
+              <span class="service-badge">Up to 11.75%</span>
+            </div>
+            <h3 class="service-title" data-lang-en="Deposit Product" data-lang-np="बचत योजना">Deposit Product</h3>
+            <p class="service-desc" data-lang-en="High-yield recurring, daily, child future, and fixed term deposits yielding up to 11.75% per annum." data-lang-np="दैनिक बचत, बाल उज्ज्वल बचत, नारी बचत तथा ११.७५% सम्म आकर्षक ब्याज प्राप्त हुने मुद्दती निक्षेप।">
+              High-yield recurring, daily, child future, and fixed term deposits yielding up to 11.75% per annum.
+            </p>
+          </div>
+          <button class="service-btn"><span data-lang-en="View Details & Terms" data-lang-np="विस्तृत विवरण हेर्नुहोस्">View Details & Terms</span> →</button>
+        </div>
+
+        <div class="service-card" data-modal-target="loan">
+          <div>
+            <div class="service-header">
+              <div class="service-icon-box">💼</div>
+              <span class="service-badge">From 12.00%</span>
+            </div>
+            <h3 class="service-title" data-lang-en="Loan" data-lang-np="कर्जा सेवा">Loan</h3>
+            <p class="service-desc" data-lang-en="Productive agricultural loans, small business expansion credit, housing, and social enterprise finance." data-lang-np="व्यावसायिक कृषि, पशुपालन, साना तथा मझौला व्यापार, आवास निर्माण तथा सुलभ व्यक्तिगत कर्जा।">
+              Productive agricultural loans, small business expansion credit, housing, and social enterprise finance.
+            </p>
+          </div>
+          <button class="service-btn"><span data-lang-en="View Details & Terms" data-lang-np="विस्तृत विवरण हेर्नुहोस्">View Details & Terms</span> →</button>
+        </div>
+
+        <div class="service-card" data-modal-target="remittance">
+          <div>
+            <div class="service-header">
+              <div class="service-icon-box">↗</div>
+              <span class="service-badge">Instant Payout</span>
+            </div>
+            <h3 class="service-title" data-lang-en="Remittance" data-lang-np="रेमिट्यान्स सेवा">Remittance</h3>
+            <p class="service-desc" data-lang-en="Domestic and international money transfer payout via Prabhu, IME, Western Union, and Global Remit." data-lang-np="विश्वका सबै देशहरूबाट पठाएको रकम प्रभु, आइएमई तथा वेस्टर्न युनियनमार्फत तत्काल काउन्टर भुक्तानी।">
+              Domestic and international money transfer payout via Prabhu, IME, Western Union, and Global Remit.
+            </p>
+          </div>
+          <button class="service-btn"><span data-lang-en="View Details & Terms" data-lang-np="विस्तृत विवरण हेर्नुहोस्">View Details & Terms</span> →</button>
+        </div>
+
+        <div class="service-card" data-modal-target="insurance">
+          <div>
+            <div class="service-header">
+              <div class="service-icon-box">🛡️</div>
+              <span class="service-badge">Safety Cover</span>
+            </div>
+            <h3 class="service-title" data-lang-en="Insurance" data-lang-np="सुरक्षण तथा बीमा">Insurance</h3>
+            <p class="service-desc" data-lang-en="Member health & accident safety micro-insurance, livestock/crop safety, and loan risk protection." data-lang-np="सदस्य दुर्घटना तथा स्वास्थ्य सुरक्षा, पशुधन तथा बाली बिमा र कर्जा सुरक्षण सुविधा।">
+              Member health & accident safety micro-insurance, livestock/crop safety, and loan risk protection.
+            </p>
+          </div>
+          <button class="service-btn"><span data-lang-en="View Details & Terms" data-lang-np="विस्तृत विवरण हेर्नुहोस्">View Details & Terms</span> →</button>
+        </div>
+
+        <div class="service-card" data-modal-target="digital-services">
+          <div>
+            <div class="service-header">
+              <div class="service-icon-box">📱</div>
+              <span class="service-badge">24/7 Digital</span>
+            </div>
+            <h3 class="service-title" data-lang-en="Digital Services" data-lang-np="डिजिटल सेवाहरू">Digital Services</h3>
+            <p class="service-desc" data-lang-en="Ekata Smart Mobile Banking app, instant NepalPay QR merchant payments, utility bills, and bank transfers." data-lang-np="एकता स्मार्ट मोबाइल बैंकिङ, नेपालपे क्युआर भुक्तानी, मोबाइल टप-अप तथा बिजुली/खानेपानी महसुल भुक्तानी।">
+              Ekata Smart Mobile Banking app, instant NepalPay QR merchant payments, utility bills, and bank transfers.
+            </p>
+          </div>
+          <button class="service-btn"><span data-lang-en="View Details & Terms" data-lang-np="विस्तृत विवरण हेर्नुहोस्">View Details & Terms</span> →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INTEREST RATES SECTION ================= -->
+  <section id="rates-section" style="padding: 50px 0; background: #fff;">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="section-eyebrow" data-lang-en="TRANSPARENT VALUE" data-lang-np="पारदर्शी वित्तीय दरहरू">TRANSPARENT VALUE</div>
+        <h2 class="section-title" data-lang-en="Current Interest Rates Schedule" data-lang-np="वर्तमान ब्याजदर तालिका">Current Interest Rates Schedule</h2>
+        <p class="section-subtitle" data-lang-en="Effective as per Board of Directors resolution under Nepal Cooperative regulatory standards." data-lang-np="सञ्चालक समितिको निर्णयानुसार लागू गरिएको आधिकारिक ब्याजदर विवरण।">
+          Effective as per Board of Directors resolution under Nepal Cooperative regulatory standards.
+        </p>
+      </div>
+
+      <div style="overflow-x: auto; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+        <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 13.5px;">
+          <thead>
+            <tr style="background: #0b2240; color: #fff;">
+              <th style="padding: 14px 18px;">Account Scheme / Product</th>
+              <th style="padding: 14px 18px;">Interest Rate (p.a.)</th>
+              <th style="padding: 14px 18px;">Calculation Basis / Benefits</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid #e2e8f0; background: #fff;">
+              <td style="padding: 12px 18px; font-weight: 700; color: #0b2240;">Regular Savings (साधारण बचत)</td>
+              <td style="padding: 12px 18px; font-weight: 800; color: #c29538; font-size: 14px;">7.25% p.a.</td>
+              <td style="padding: 12px 18px; color: #64748b;">Daily Calculation / Min Rs. 100</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0; background: #f8fafc;">
+              <td style="padding: 12px 18px; font-weight: 700; color: #0b2240;">Nari Bachat (नारी कल्याण बचत)</td>
+              <td style="padding: 12px 18px; font-weight: 800; color: #c29538; font-size: 14px;">8.00% p.a.</td>
+              <td style="padding: 12px 18px; color: #64748b;">Monthly Interest / Free Cheque</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0; background: #fff;">
+              <td style="padding: 12px 18px; font-weight: 700; color: #0b2240;">Senior Citizen Fund (ज्येष्ठ नागरिक बचत)</td>
+              <td style="padding: 12px 18px; font-weight: 800; color: #c29538; font-size: 14px;">9.50% p.a.</td>
+              <td style="padding: 12px 18px; color: #64748b;">Quarterly Payout / Priority Desk</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0; background: #f8fafc;">
+              <td style="padding: 12px 18px; font-weight: 700; color: #0b2240;">Child Bright Future (बाल उज्ज्वल बचत)</td>
+              <td style="padding: 12px 18px; font-weight: 800; color: #c29538; font-size: 14px;">9.00% p.a.</td>
+              <td style="padding: 12px 18px; color: #64748b;">Annual Compounding for Education</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0; background: #fff;">
+              <td style="padding: 12px 18px; font-weight: 700; color: #0b2240;">1-Year Fixed Deposit (१ वर्षे मुद्दती)</td>
+              <td style="padding: 12px 18px; font-weight: 800; color: #c29538; font-size: 14px;">10.50% p.a.</td>
+              <td style="padding: 12px 18px; color: #64748b;">Quarterly Interest Credited</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0; background: #f8fafc;">
+              <td style="padding: 12px 18px; font-weight: 700; color: #0b2240;">2-Year+ Golden FD (२+ वर्षे मुद्दती)</td>
+              <td style="padding: 12px 18px; font-weight: 800; color: #c29538; font-size: 14px;">11.75% p.a.</td>
+              <td style="padding: 12px 18px; color: #64748b;">Highest Yield / Loan facility 90%</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0; background: #fff;">
+              <td style="padding: 12px 18px; font-weight: 700; color: #0b2240;">Agricultural Productive Loan (कृषि कर्जा)</td>
+              <td style="padding: 12px 18px; font-weight: 800; color: #c29538; font-size: 14px;">12.00% p.a.</td>
+              <td style="padding: 12px 18px; color: #64748b;">Subsidized Priority Sector</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0; background: #f8fafc;">
+              <td style="padding: 12px 18px; font-weight: 700; color: #0b2240;">Business & Enterprise Loan (व्यापार कर्जा)</td>
+              <td style="padding: 12px 18px; font-weight: 800; color: #c29538; font-size: 14px;">13.50% p.a.</td>
+              <td style="padding: 12px 18px; color: #64748b;">Diminishing Balance Method</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INTERACTIVE LOAN EMI CALCULATOR ================= -->
+  <section id="calculator-section" class="calculator-section">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="section-eyebrow" data-lang-en="PLAN YOUR FINANCES" data-lang-np="कर्जा योजना बनाउनुहोस्">PLAN YOUR FINANCES</div>
+        <h2 class="section-title" data-lang-en="Interactive Loan EMI Calculator" data-lang-np="इन्टरएक्टिभ कर्जा किस्ता क्याल्कुलेटर">Interactive Loan EMI Calculator</h2>
+        <p class="section-subtitle" data-lang-en="Estimate your monthly installment (EMI), total interest payout, and loan schedule accurately." data-lang-np="आफ्नो कर्जा रकम, ब्याजदर र भुक्तानी अवधि चयन गरी मासिक किस्ता हिसाब गर्नुहोस्।">
+          Estimate your monthly installment (EMI), total interest payout, and loan schedule accurately.
+        </p>
+      </div>
+
+      <div class="calc-box">
+        <div class="calc-form">
+          <div class="form-group">
+            <label>
+              <span data-lang-en="Loan Amount" data-lang-np="कर्जा रकम">Loan Amount</span>
+              <span id="amountDisplay" style="color: #0b2240;">Rs. 500,000</span>
+            </label>
+            <input type="range" id="loanAmountSlider" min="50000" max="5000000" step="50000" value="500000">
+          </div>
+
+          <div class="form-group">
+            <label>
+              <span data-lang-en="Interest Rate (% p.a.)" data-lang-np="वार्षिक ब्याजदर (%)">Interest Rate (% p.a.)</span>
+              <span id="rateDisplay" style="color: #0b2240;">12.50%</span>
+            </label>
+            <input type="range" id="loanInterestSlider" min="8" max="18" step="0.25" value="12.5">
+          </div>
+
+          <div class="form-group">
+            <label>
+              <span data-lang-en="Tenure (Duration)" data-lang-np="भुक्तानी अवधि">Tenure (Duration)</span>
+              <span id="tenureDisplay" style="color: #0b2240;">36 Months (3.0 Yrs)</span>
+            </label>
+            <input type="range" id="loanTenureSlider" min="6" max="180" step="6" value="36">
+          </div>
+        </div>
+
+        <div class="calc-result-card">
+          <div class="emi-title" data-lang-en="Estimated Monthly EMI" data-lang-np="अनुमानित मासिक किस्ता">Estimated Monthly EMI</div>
+          <div class="emi-amount" id="emiAmountDisplay">Rs. 16,727</div>
+          <div class="calc-breakdown">
+            <div>
+              <div style="color: #94a3b8; font-size: 11px;" data-lang-en="Total Interest" data-lang-np="कुल ब्याज">Total Interest</div>
+              <div id="totalInterestDisplay" style="font-weight: 700;">Rs. 102,166</div>
+            </div>
+            <div>
+              <div style="color: #94a3b8; font-size: 11px;" data-lang-en="Total Payment" data-lang-np="कुल भुक्तानी">Total Payment</div>
+              <div id="totalPaymentDisplay" style="font-weight: 700;">Rs. 602,166</div>
+            </div>
+          </div>
+          <button class="btn-primary" style="margin-top: 18px; width: 100%;" data-modal-target="loan">
+            <span data-lang-en="Apply for This Loan" data-lang-np="यस कर्जाका लागि आवेदन दिनुहोस्">Apply for This Loan</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MODAL OVERLAY ================= -->
+  <div id="appModal" class="modal-overlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3><span id="modalIcon">📑</span> <span id="modalTitle">Modal Details</span></h3>
+        <button id="modalCloseBtn" class="modal-close-btn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p id="modalDesc" class="modal-desc"></p>
+        <ul id="modalPoints" class="modal-points-list"></ul>
+      </div>
+      <div class="modal-footer">
+        <button id="modalCancelBtn" class="btn-secondary" style="color: #475569; border-color: #cbd5e1;">Close</button>
+        <button id="modalActionBtn" class="btn-primary">Download / Proceed</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= FOOTER ================= -->
+  <footer id="contact" class="main-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4>Ekata Saving & Credit Cooperative Ltd.</h4>
+        <p style="font-size: 12.5px; line-height: 1.6; margin-bottom: 15px;">
+          Butwal-4, Rupandehi • Regd. No: 245/056/057 • Established 2056 B.S. Empowering our community members with secure deposits, subsidized credit, and digital inclusion.
+        </p>
+        <p style="font-size: 12.5px;">
+          📍 <strong>Head Office:</strong> Main Road, Butwal-4, Rupandehi<br>
+          📞 <strong>Phone:</strong> 071-540123 / 540456<br>
+          ✉ <strong>Email:</strong> info@ekatacoop.com.np<br>
+          ⏰ <strong>Hours:</strong> Sun - Fri (10:00 AM - 5:00 PM)
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Core Services</h4>
+        <ul class="footer-links">
+          <li><a href="#" data-modal-target="member-service">Member Service</a></li>
+          <li><a href="#" data-modal-target="deposit-product">Deposit Product</a></li>
+          <li><a href="#" data-modal-target="loan">Loan</a></li>
+          <li><a href="#" data-modal-target="remittance">Remittance</a></li>
+          <li><a href="#" data-modal-target="insurance">Insurance</a></li>
+          <li><a href="#" data-modal-target="digital-services">Digital Services</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Governance & Reports</h4>
+        <ul class="footer-links">
+          <li><a href="#" data-modal-target="reports-monthly">Monthly Report</a></li>
+          <li><a href="#" data-modal-target="reports-progress">Progress Report</a></li>
+          <li><a href="#" data-modal-target="reports-annual">Annual Report</a></li>
+          <li><a href="#" data-modal-target="reports-audit">Audit Report</a></li>
+          <li><a href="#" data-modal-target="career-vacancies">Opening Vacancies</a></li>
+          <li><a href="#" data-modal-target="career-requirements">Career Eligibility</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Branch Network</h4>
+        <ul class="footer-links">
+          <li><strong>Traffic Chowk Service Center:</strong> 071-541111</li>
+          <li><strong>Milanchowk Service Center:</strong> 071-542222</li>
+          <li><strong>Golpark Service Center:</strong> 071-543333</li>
+          <li><strong>Toll-Free Helpline:</strong> 1660-01-99887</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 Ekata Saving & Credit Cooperative Ltd. All Rights Reserved. Regd. No. 245/056/057.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

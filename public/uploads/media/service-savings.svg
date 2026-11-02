@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="savGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07678d" />
+      <stop offset="50%" stop-color="#0981ae" />
+      <stop offset="100%" stop-color="#0cb3f0" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="20" fill="url(#savGrad)" />
+  <circle cx="500" cy="100" r="140" fill="#ffffff" opacity="0.06" />
+  <circle cx="100" cy="320" r="160" fill="#ffffff" opacity="0.05" />
+  
+  <!-- Central piggy / vault / coins -->
+  <circle cx="300" cy="180" r="85" fill="#ffffff" opacity="0.12" />
+  <circle cx="300" cy="180" r="70" fill="#fef3c7" />
+  <text x="300" y="200" font-family="sans-serif" font-size="64" text-anchor="middle">💰</text>
+  
+  <!-- Coins floating -->
+  <circle cx="210" cy="140" r="28" fill="#f59e0b" stroke="#fef3c7" stroke-width="3" />
+  <text x="210" y="148" font-family="sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">रु</text>
+  
+  <circle cx="390" cy="140" r="28" fill="#f59e0b" stroke="#fef3c7" stroke-width="3" />
+  <text x="390" y="148" font-family="sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">%</text>
+
+  <!-- Titles -->
+  <text x="300" y="300" font-family="sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">Safe &amp; High-Yield Savings Accounts</text>
+  <text x="300" y="330" font-family="sans-serif" font-size="14" fill="#bae6fd" text-anchor="middle">दैनिक मौज्दातमा आकर्षक ब्याज, सुरक्षा तथा सहज भुक्तानी</text>
+  <rect x="220" y="345" width="160" height="28" rx="14" fill="#f59e0b" />
+  <text x="300" y="364" font-family="sans-serif" font-size="12" font-weight="bold" fill="#78350f" text-anchor="middle">UP TO 11.75% ANNUAL</text>
+</svg>
